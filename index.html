@@ -1,31 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/cabecalho.css">
-    <link rel="stylesheet" href="css/reset.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/cabecalho.css" />
+    <link rel="stylesheet" href="css/texto-formulario.css" />
+    <link rel="stylesheet" href="css/index.css">
     <title>Desafio Front End</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="interface">
-        
-        <header id="cabecalho">
-            <section id="texto-cabecalho">
-                <p class="p1">Uma seleção de produtos<p>
-                <p class="p2">especial para você<p>
-                <br/>
-                <p class="p3">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
-            </section>
+      <header id="cabecalho">
+        <section id="texto-cabecalho">
+          <p class="p1">Uma seleção de produtos</p>
+          <p></p>
+          <p class="p2">especial para você</p>
+          <p>
+            <br />
+          </p>
 
-            <section id="container-botoes-cabecalho">
-                <button class="item">Conheça a Linx</button>
-                <button class="item">Ajude o algorítmo</button>
-                <button class="item">Seus produtos</button>
-                <button class="item">Compartilhe</button>
-            </section>
-        </header>
+          <p class="p3">
+            Todos os produtos desta lista foram selecionados a partir da sua
+            navegação. Aproveite!
+          </p>
+        </section>
+
+        <section id="container-botoes-cabecalho">
+          <button class="item">Conheça a Linx</button>
+          <button class="item">Ajude o algorítmo</button>
+          <button class="item">Seus produtos</button>
+          <button class="item">Compartilhe</button>
+        </section>
+      </header>
+
+      <section id="container-texto-formulario">
+        <div id="container-texto">
+          <h2>Ajude o algorítmo ser mais certeiro</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque ultricies tellus nec mi porta convallis sollicitudin eu
+            urna. Mauris rhoncus erat sed interdum dignissim. Suspendisse semper
+            pretium consectetur. Praesent bibendum arcu risus, sit amet iaculis
+            ex tempus quis. Cras et erat ut tellus vulputate tincidunt. Aenean
+            lacinia euismod augue vel egestas. Class aptent taciti sociosqu ad
+            litora torquent per conubia nostra, per inceptos himenaeos.
+            Vestibulum vel urna tortor. Vivamus et arcu non felis tristique
+            eleifend.
+          </p>
+          <br/>
+          <p>
+            Morbi eu condimentum urna. Curabitur eu magna eget turpis
+            condimentum ultrices. Suspendisse quis lorem ultricies, pulvinar
+            purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra.
+            Quisque ut neque mattis, consequat velit ut, ultrices orci. Nulla
+            varius elementum erat vel pharetra. Aenean sit amet nisi diam. Morbi
+            viverra, magna ac luctus commodo, odio ante suscipit libero, at
+            mattis augue est vel metus.
+          </p>
+        </div>
+
+        <div id="container-formulario">
+          <p class="item-formulario">Seu nome:</p>
+          <input type="text" class="input-formulario" />
+
+          <p class="item-formulario">E-mail</p>
+          <input type="email" class="input-formulario" />
+
+          <p class="item-formulario">CPF:</p>
+          <input type="number" class="input-formulario" />
+
+          <p id="radio-sexo">
+            <input type="radio" name="sexo" id="sexo-mas" />
+            <label for="sexo-mas">Masculino</label>
+
+            <input type="radio" name="sexo" id="sexo-fem" />
+            <label for="sexo-fem">Feminino</label>
+          </p>
+
+          <button id="botao-enviar-formulario">Enviar</button>
+        </div>
+      </section>
     </div>
-</body>
+  </body>
 </html>
