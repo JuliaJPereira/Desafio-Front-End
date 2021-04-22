@@ -1,0 +1,20 @@
+footer p {
+    font-size: 12px;
+    font-family: Helvetica;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+  }
