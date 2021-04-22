@@ -1,0 +1,105 @@
+.meu-hr {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.meu-hr hr {
+  flex: 1;
+  color: #707070;
+  margin-left: 0.5em;
+}
+
+.meu-hr p {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: white;
+  padding-left: 17px;
+  padding-right: 17px;
+  color: #707070;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#container-itens-produtos {
+  display: flex;
+  align-items: center; /* alinha verticalmente */
+  justify-content: center; /* alinha horizontalmente */
+}
+
+/* .produto img {
+  width: 200px;
+  height: 150px;
+} */
+
+.produto {
+  color: #888888;
+  font-family: Helvetica;
+  margin: 30px;
+  line-height: 1.2;
+}
+
+.nome {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.descricao {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.de {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.por {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.parcelado {
+  font-size: 12px;
+}
+
+.botao-comprar-produto {
+  top: 1180px;
+  left: 286px;
+  width: 200px;
+  height: 30px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  opacity: 1;
+  color: #888888;
+  font-size: 16px;
+  font-family: Helvetica;
+  margin-top: 16px;
+  margin-bottom: 39px;
+}
+
+#botao-mais-produtos {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+#botao-mais-produtos button {
+  width: 260px;
+  height: 39px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  opacity: 1;
+  color: #888888;
+  font-size: 16px;
+  font-family: Helvetica;
+  margin-bottom: 128px;
+}
