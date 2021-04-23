@@ -23,6 +23,6 @@ Clonar o repositório e abrir o arquivo `index.html` no navegador.
 
 ## Débitos técnicos
 
-- Resposividade: Não foi utilizado neste projeto pois não tenho domínio
+- Responsividade: Não foi utilizado neste projeto pois não tenho domínio
 
 
