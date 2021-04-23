@@ -31,10 +31,10 @@
         </section>
 
         <section id="container-botoes-cabecalho">
-          <button class="item">Conheça a Linx</button>
-          <button class="item">Ajude o algorítmo</button>
-          <button class="item">Seus produtos</button>
-          <button class="item">Compartilhe</button>
+          <button class="item botao-hover">Conheça a Linx</button>
+          <button class="item botao-hover">Ajude o algorítmo</button>
+          <button class="item botao-hover">Seus produtos</button>
+          <button class="item botao-hover">Compartilhe</button>
         </section>
       </header>
 
@@ -64,7 +64,7 @@
           </p>
         </div>
 
-        <div id="container-formulario">
+        <form id="container-formulario">
           <p class="item-formulario">Seu nome:</p>
           <input type="text" class="input-formulario" />
 
@@ -72,7 +72,7 @@
           <input type="email" class="input-formulario" />
 
           <p class="item-formulario">CPF:</p>
-          <input type="number" class="input-formulario" />
+          <input type="text" class="input-formulario" />
 
           <p id="radio-sexo">
             <input type="radio" name="sexo" id="sexo-mas" />
@@ -82,8 +82,8 @@
             <label for="sexo-fem">Feminino</label>
           </p>
 
-          <button id="botao-enviar-formulario">Enviar</button>
-        </div>
+          <button id="botao-enviar-formulario" class="botao-hover">Enviar</button>
+        </form>
       </section>
 
       <section id="container-produtos">
@@ -97,7 +97,7 @@
         </div>
 
         <div id="botao-mais-produtos">
-          <button onclick="buscaProdutos()">Ainda mais produtos aqui!</button>
+          <button onclick="buscaProdutos()" class="botao-hover">Ainda mais produtos aqui!</button>
         </div>
       </section>
 
@@ -126,7 +126,7 @@
           </div>
 
           <div class="container-formulario">
-            <button id="botao-enviar-formulario">Enviar agora</button>
+            <button id="botao-enviar-formulario" class="botao-hover">Enviar agora</button>
           </div>
         </form>
       </section>
