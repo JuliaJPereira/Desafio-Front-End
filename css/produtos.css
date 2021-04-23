@@ -30,6 +30,7 @@
   display: flex;
   align-items: center; /* alinha verticalmente */
   justify-content: center; /* alinha horizontalmente */
+  flex-wrap: wrap; /* faz os itens quebrarem a linha*/
 }
 
 /* .produto img {
@@ -42,6 +43,7 @@
   font-family: Helvetica;
   margin: 30px;
   line-height: 1.2;
+  width: 18%;
 }
 
 .nome {
