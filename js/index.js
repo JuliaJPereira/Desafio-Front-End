@@ -31,7 +31,7 @@ function buscaProdutos() {
         style: "currency",
         currency: "BRL",
       })}</p>
-                <button class="botao-comprar-produto">Comprar</button>
+                <button class="botao-comprar-produto botao-hover">Comprar</button>
             </div>
         `;
     });

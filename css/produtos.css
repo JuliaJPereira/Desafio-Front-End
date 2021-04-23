@@ -105,3 +105,7 @@
   font-family: Helvetica;
   margin-bottom: 128px;
 }
+
+.botao-hover:hover {
+  cursor: pointer;
+}

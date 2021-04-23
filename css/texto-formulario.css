@@ -48,3 +48,7 @@
   color: #888888;
   margin-bottom: 79px;
 }
+
+.botao-hover:hover {
+  cursor: pointer;
+}
