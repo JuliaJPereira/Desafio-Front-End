@@ -1,6 +1,6 @@
 axios
   .get(
-    "http://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=1"
+    "https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=1"
   )
   .then((response) => {
     console.log(response.data);
